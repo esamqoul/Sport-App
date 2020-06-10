@@ -1,0 +1,429 @@
+/* FADE IN  */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+}
+
+/* FADE IN DOWN */
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+          animation-name: fadeInDown;
+}
+
+/* FADE IN UP */
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50px, 0);
+            transform: translate3d(0, 50px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50px, 0);
+            transform: translate3d(0, 50px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100px, 0);
+            transform: translate3d(0, 100px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 150px, 0);
+            transform: translate3d(0, 150px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+}
+
+/* FADE IN LEFT */
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-30px, 0, 0);
+            transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-30px, 0, 0);
+            transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft;
+}
+
+/* FADE IN RIGHT */
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10px, 0);
+            transform: translate3d(0, 10px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10px, 0);
+            transform: translate3d(0, 10px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+          animation-name: fadeInRight;
+}
+
+/* ===============section_a CARD UP ==============================*/
+.goUp_1.in-view {
+  -webkit-animation: fadeInUp 2s;
+          animation: fadeInUp 2s;
+}
+
+.goUp_2.in-view {
+  -webkit-animation: fadeInUp 2s;
+          animation: fadeInUp 2s;
+}
+
+.goUp_3.in-view {
+  -webkit-animation: fadeInUp 2s;
+          animation: fadeInUp 2s;
+}
+
+/* ===============section_b__quote===================== */
+.section_b__quote.in-view {
+  -webkit-animation: fadeInUp 2s;
+          animation: fadeInUp 2s;
+}
+
+/* ==============section_c__videotext====================== */
+.section_c__video.in-view {
+  -webkit-animation: fadeInLeft 2s;
+          animation: fadeInLeft 2s;
+}
+
+.section_c__videotextmove.in-view {
+  -webkit-animation: fadeInRight 2s;
+          animation: fadeInRight 2s;
+}
+
+@-webkit-keyframes movefromleft {
+  from {
+    left: 200px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes movefromleft {
+  from {
+    left: 200px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+.movefromtheleft.in-view {
+  position: relative;
+  -webkit-animation: movefromleft 2s;
+          animation: movefromleft 2s;
+}
+
+/* ================section_c__videotext==================== */
+@-webkit-keyframes Up1 {
+  from {
+    top: 50px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+@keyframes Up1 {
+  from {
+    top: 50px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes Up2 {
+  from {
+    top: 70px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes Up2 {
+  from {
+    top: 70px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes Up3 {
+  from {
+    top: 90px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes Up3 {
+  from {
+    top: 90px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+.section_d .section_d_cards > ul > .up1.in-view {
+  position: relative;
+  -webkit-animation: Up1 1s;
+          animation: Up1 1s;
+}
+
+.section_d .section_d_cards > ul > .Up2.in-view {
+  position: relative;
+  -webkit-animation: Up2 1s;
+          animation: Up2 1s;
+}
+
+.section_d .section_d_cards > ul > .Up3.in-view {
+  position: relative;
+  -webkit-animation: Up3 1s;
+          animation: Up3 1s;
+}
+
+/* ================subscribe_text==================== */
+@-webkit-keyframes movefromright {
+  from {
+    right: 200px;
+  }
+  to {
+    right: 0px;
+  }
+}
+@keyframes movefromright {
+  from {
+    right: 200px;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+.subscribe_text.in-view {
+  position: relative;
+  -webkit-animation: movefromright 2s;
+          animation: movefromright 2s;
+}
+
+/* ===============section_a CARD UP ==============================*/
+.goDown.in-view {
+  -webkit-animation: fadeInDown 2s;
+          animation: fadeInDown 2s;
+}
+
+/* ====  image hover ===============*/
+.section_c .videobutton a::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.section_c .videobutton a:hover::before {
+  -webkit-animation: circle .75s;
+          animation: circle .75s;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+}
+
+@keyframes circle {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+}
+
+.App-logo {
+  -webkit-animation: App-logo-spin infinite 20s linear;
+          animation: App-logo-spin infinite 20s linear;
+}
+
+@-webkit-keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.preloader {
+  opacity: 0;
+  display: none;
+  -webkit-transition: opacity 1s ease-in;
+  transition: opacity 1s ease-in;
+  color: #000000;
+}
+/*# sourceMappingURL=animation.css.map */
