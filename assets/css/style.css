@@ -1313,7 +1313,7 @@ StyleCSS ================================== */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 300px;
+  width: 270px;
 }
 
 .section_e .form-group > a,
