@@ -1045,21 +1045,24 @@ StyleCSS ================================== */
     margin-top: -100px;
     grid-gap: 5%;
   }
-  .section_b .cards .card-1 {
-    -webkit-animation-duration: 2s;
-            animation-duration: 2s;
-    position: relative;
-  }
-  .section_b .cards .card-2 {
-    position: relative;
-    -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-  }
-  .section_b .cards .card-3 {
-    position: relative;
-    -webkit-animation-duration: 4s;
-            animation-duration: 4s;
-  }
+}
+
+.section_b .cards .card-1 {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  position: relative;
+}
+
+.section_b .cards .card-2 {
+  position: relative;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.section_b .cards .card-3 {
+  position: relative;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
 }
 
 .section_b .cards img {

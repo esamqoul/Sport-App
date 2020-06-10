@@ -13,6 +13,8 @@ function init() {
 }
 init();
 
+
+
 document.addEventListener("DOMContentLoaded", function () {
   const doc = document;
   const menuOpen = doc.querySelector(".menu");
@@ -26,15 +28,21 @@ document.addEventListener("DOMContentLoaded", function () {
   menuClose.addEventListener("click", () => {
     overlay.classList.remove("overlay--active");
   });
+  function isMobile() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  }
 
-  // ps: disable on small devices!
-  var $animationElements = $('.animation-element');
-  var $window = $(window);
+  if (!isMobile()) {
+    // ps: disable on small devices!
+    var $animationElements = $('.animation-element');
+    var $window = $(window);
 
-  // ps: Let's FIRST disable triggering on small devices!
-  var isMobile = window.matchMedia("only screen and (min-width: 768px)");
-  if (isMobile.matches) {
-    $animationElements.removeClass('animation-element');
+    // ps: Let's FIRST disable triggering on small devices!
+    var isMobile = window.matchMedia("only screen and (min-width: 768px)");
+    if (isMobile.matches) {
+      $animationElements.removeClass('animation-element');
+    }
+
   }
 
   function checkIfInView() {
@@ -63,6 +71,9 @@ document.addEventListener("DOMContentLoaded", function () {
   $window.trigger('scroll');
 
 });
+
+
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
